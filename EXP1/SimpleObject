@@ -1,1 +1,18 @@
+package Chaudhary;
+
+class SimpleObject{
+    SimpleObject(){
+        System.out.println("I'm here in the simple object without parameter!");
+    }
+    SimpleObject(int s){
+        System.out.println("I'm here in the simple object with parameter!");
+    }
+}
+public class SO {
+    public static void main(String[] args) {
+        SimpleObject obj =new SimpleObject();
+        SimpleObject obj1=new SimpleObject(11);
+
+    }
+}
 
